@@ -15,6 +15,7 @@ int16_t accelerometer_x, accelerometer_y, accelerometer_z; // variables for acce
 int16_t gyro_x, gyro_y, gyro_z; // variables for gyro raw data
 int16_t temperature; // variables for temperature data
 
+// # test
 char tmp_str[7]; // temporary variable used in convert function
 
 char* convert_int16_to_str(int16_t i) { // converts int16 to string. Moreover, resulting strings will have the same length in the debug monitor.
