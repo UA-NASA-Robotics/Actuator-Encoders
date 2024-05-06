@@ -1,4 +1,4 @@
-#include "niceFunctions.h"
+#include "niceFunctions.hpp"
 #include "math.h"
 
 double angleXY(int x, int y) {
