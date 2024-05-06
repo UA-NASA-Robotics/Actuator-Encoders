@@ -3,7 +3,7 @@
 #include <Wire.h> // This library allows you to communicate with I2C devices.
 #include "math.h"
 #include <Arduino.h>
-#include "niceFunctions.h"
+#include "niceFunctions.hpp"
 
 const uint8_t MPU_ADDR[] = {0x68, 0x69}; // I2C addresses of the MPU-6050. If AD0 pin is set to HIGH, the I2C address will be 0x69.
 
